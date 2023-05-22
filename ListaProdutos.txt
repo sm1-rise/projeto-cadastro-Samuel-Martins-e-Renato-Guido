@@ -1,0 +1,23 @@
+[
+=========PRODUTO CADASTRADO=========
+Produto: Carregador turbo 12W
+Codigo: 2388
+Marca: Motorola
+Material: borracha, plastico 
+Cor: preto
+Tipo de conexão: Tipo C
+Valor: R$50.0
+Descrição do produto: carregador super rapido
+==================================================
+, 
+=========PRODUTO CADASTRADO=========
+Produto: Capa protetora S21
+Codigo: 8450
+Marca: Capinha ltda
+Cor: transparente
+Tipo de Material: Plastico, borracha etc
+Proteção: 
+Valor: R$70.0
+Descrição do produto: capa transparente para S21
+==================================================
+]
