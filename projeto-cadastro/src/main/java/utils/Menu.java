@@ -50,7 +50,7 @@ public class Menu {
                     quantidadeProdutosCadastro = sc.nextInt();
                 }
 
-                }catch(InputMismatchException e){
+            }catch(InputMismatchException e){
                 System.out.println("Por Favor, inisra somente numeros: ");
                 sc.nextLine();
             }
@@ -59,7 +59,7 @@ public class Menu {
     }
 
     public static void menu () {
-        while (whileDoMenu) {
+        while (true) {
             try {
                 System.out.println("Escolha uma das opcoes: ");
                 System.out.println("1- Cadastrar Produto");
@@ -85,14 +85,11 @@ public class Menu {
 
                 else{
                     System.out.println("Escolha um valor em 1 e 4.");
-                    System.out.println("\nEscolha uma opçao: ");
-                    escolha = sc.nextInt();
                 }
 
             } catch (InputMismatchException e) {
                 sc.nextLine();
                 System.out.println("Por favor, digite um valor válido inteiro. Tente novamente.");
-                whileDoMenu = true;
             }
             break;
         }
